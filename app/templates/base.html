@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SquakGPT - AI Bird Chat</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/htmx.org@1.9.10/dist/htmx.min.js"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 min-h-screen">
+    <div class="max-w-4xl mx-auto h-screen flex flex-col">
+        <header class="p-4 border-b border-gray-700 flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl font-bold">SquakGPT</h1>
+                <p class="text-gray-400 text-sm">Talk to the bird, get bird sounds back</p>
+            </div>
+            <button id="new-chat-btn"
+                    class="bg-gray-700 hover:bg-gray-600 px-4 py-2 rounded-lg text-sm transition-colors">
+                New Chat
+            </button>
+        </header>
+        
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
