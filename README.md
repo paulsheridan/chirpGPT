@@ -1,4 +1,4 @@
-# SquakGPT
+# ChirpGPT
 
 A simple FastAPI + HTMX web app with a ChatGPT-like interface for sentiment analysis.
 
